@@ -7,10 +7,12 @@ library from your projects can result in possibly better levels of evasion.
 While it's often never the deciding factor of malware being detected by security solutions,
 removing the CRT does have its small benefits, including:
 
-  **1.** lower binary entropy
-  **2.** Reduced file bloat
+  **1.** lower binary entropy.
+
+  **2.** Reduced file bloat.
+
   **3.** Lower threat scores on sites like VirusTotal (although frankly, this is
-          mainly due to the poor methodology for detection that it implements)
+          mainly due to the poor methodology for detection that it implements).
 
 For these reasons, malware developers in the past have sometimes opted to **completely remove** the CRT library
 from their projects. In doing this, however, you lose out on quite a bit of functionality in your programs, especially if
