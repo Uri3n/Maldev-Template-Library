@@ -23,9 +23,9 @@ functionality. All of the classes as well as helper functions are accessible wit
 Currently, there isn't **too** much here, but I'm planning on adding more
 as time goes on. As of right now, the library includes:
 
-  1 **String classes**, both ANSI and Unicode types.
+  1. **String classes**, both ANSI and Unicode types.
   
-  2 **Vectors (dynamic arrays)**.
+  2. **Vectors (dynamic arrays)**.
   
   3. **Stacks**.
   
