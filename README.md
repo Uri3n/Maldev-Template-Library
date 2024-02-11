@@ -1,5 +1,5 @@
 # Maldev-Template-Library
-## A reimplementation of the C++ standard library with no CRT library dependencies.
+## A WIP reimplementation of the C++ standard library with no CRT library dependencies.
 ## Compiled and tested with Visual Studio 2022.
 
 If you dabble in Windows malware development then you might be aware that removing the CRT 
