@@ -46,6 +46,7 @@ as time goes on. As of right now, the library includes:
 # Important Considerations
 Each class in this library has an **is_ok()** method. This can be used after each method call to check to see if a HeapAlloc call failed for
 whatever reason. The chances of HeapAlloc failing is next to zero, but it is technically possible so it's there if you want to use it.
+These template classes only work with **primitive types**. They do not work in conjunction with other classes.
 Also, I made this for fun, mostly because I like data structures. If you want to use it, go ahead, but it's fairly incomplete right now.
 
 # What I Plan On Adding
